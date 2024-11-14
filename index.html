@@ -64,15 +64,56 @@
                             <div class="my-5 text-center">
                                 <h2 class="display-5 fw-bolder"><span class="text-primary d-inline">Upcoming Events</span></h2>
                             </div>
-                            <!-- Event Card 1-->
+                            <!-- Button to open the calendar modal -->
+                            <div class="align-items-center text-center my-5">
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#calendarModal">
+                                    Google Calendar
+                                </button>
+                            </div>
+                            <!-- Bootstrap Modal for the calendar -->
+                            <div class="modal fade" id="calendarModal" tabindex="-1" aria-labelledby="calendarModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="calendarModalLabel">Embedded Security Club Calendar</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&title=Embedded%20Security%20Club%20at%20OSU&mode=MONTH&showTabs=0&src=MjAzMGM4ZjA4MzQ4ZmEzOGMwM2I4MjdkYjJkOGFkNmU0NjFhMzcyNWVmYzYwNWM4NTgyNWFhZjdjY2M3YmJiN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF"
+                                                    style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Event Card -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">Careers in Cyber Security Presentation and Q/A</div>
+                                                <div class="small tex-muted"><b>Time: </b>6PM November 20th</div>
+                                                <div class="small text-muted"><b>Location: </b>Dreese Labs 305</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <p>Come join us and listen to cyber security professionalsspeak about the future of cyber security, what they do day to day, how to secure internships, the power of networking, and answer all of your questions!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Event Card -->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">Mitre 10th Annual eCTF Informational Meeting</div>
-                                                <div class="small tex-muted"><b>Time: </b>6PM November 20th</div>
-                                                <div class="small text-muted"><b>Location: </b>Dreese Labs Room 305</div>
+                                                <div class="small tex-muted"><b>Time: </b>January 8th</div>
+                                                <div class="small text-muted"><b>Location: </b>TBD</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-8">
@@ -81,31 +122,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- Event Card 2-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <div class="row align-items-center gx-5">
-                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                            <div class="bg-light p-4 rounded-4">
-                                                <div class="text-primary fw-bolder mb-2">Careers in Cyber Security Presentation and Q/A</div>
-                                                <div class="small tex-muted"><b>Time: </b>TBD</div>
-                                                <div class="small text-muted"><b>Location: </b>Online Zoom</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <p>Come join us and listen to cyber security professionals, from a variety of different companies, speak about the future of cyber security, how to secure internships, the power of networking, and answer all of your questions!</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Event Card 3-->
+                            <!-- Event Card -->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
                                     <div class="row align-items-center gx-5">
                                         <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                             <div class="bg-light p-4 rounded-4">
                                                 <div class="text-primary fw-bolder mb-2">Mitre's 10th Annual Embedded CTF Kickoff</div>
-                                                <div class="small tex-muted"><b>Time: </b>TBD</div>
+                                                <div class="small tex-muted"><b>Time: </b>January 15th</div>
                                                 <div class="small text-muted"><b>Location: </b>TBD</div>
                                             </div>
                                         </div>
